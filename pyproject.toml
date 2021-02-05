@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flowstate"
+version = "0.1.0"
+description = "Functional state management and an in memory store of state"
+authors = ["Jeff Buttars <jeffbuttars@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cytoolz = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+pynvim = "^0.4.2"
+isort = "^5.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
